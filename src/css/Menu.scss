@@ -1,0 +1,24 @@
+.navbar{
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    margin-top: 10px;
+    .logo-container{
+        margin-top: 10px;
+    }
+    .logo{
+        width: 33.33%;
+        padding-left: 10%; 
+    }
+    .menu{
+        align-items: flex-end;
+        .menu-link{
+            padding: 1%;
+            text-decoration: none;
+            color: white;
+        }
+        width: 33.33%;
+    }
+}
