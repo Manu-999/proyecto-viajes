@@ -1,6 +1,6 @@
 import React from 'react';
-import '../css/Menu.scss';
-import Icons from './Icons';
+import './Menu.scss';
+import Icons from '../layout/Icons';
 const Menu = props => {
     return (
         <div className="navbar">

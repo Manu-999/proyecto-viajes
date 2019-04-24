@@ -9,16 +9,17 @@
         margin-top: 10px;
     }
     .logo{
-        width: 33.33%;
+        width: 40%;
         padding-left: 10%; 
     }
     .menu{
-        align-items: flex-end;
+        text-align: center;
         .menu-link{
             padding: 1%;
             text-decoration: none;
             color: white;
+            font-style: italic;
         }
-        width: 33.33%;
+        width: 40%;
     }
 }
