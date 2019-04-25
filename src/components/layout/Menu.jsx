@@ -3,7 +3,7 @@ import './Menu.scss';
 import Icons from '../layout/Icons';
 const Menu = props => {
     return (
-        <div className="navbar">
+        <div className="navbar" style={props.style}>
             <div className="logo-container">
                 <img src="./images/logo.png" alt="logo" className="logo"></img>
             </div>
