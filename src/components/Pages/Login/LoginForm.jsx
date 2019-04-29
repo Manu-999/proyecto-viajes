@@ -15,7 +15,7 @@ function LoginForm(props) {
                 <Input type="email" placeholder="Email"></Input>
                 <Input type="text" placeholder="Password"></Input>
                 <Input type="submit" value="Enviar"></Input>
-                <Link to="/login"><h3>¿No recuerdas tu contraseña?</h3></Link>
+                <Link to="/register"><h3>¿No recuerdas tu contraseña?</h3></Link>
             </Form>
         </div>
     );

@@ -25,7 +25,7 @@ function RegisterForm() {
                 <Input type="email" placeholder="Email"></Input>
                 <Input type="text" placeholder="Password"></Input>
                 <Input type="text" placeholder="Repeat Password"></Input>
-                <Input type="checkbox" name="accept" id="accept"></Input>
+                <Input type="checkbox" name="accept" id="accept" required></Input>
                 <label>Acepta los términos y condiciones así como la política de privacidad</label>
                 <Input type="submit" value="Register"></Input>
             </Form>

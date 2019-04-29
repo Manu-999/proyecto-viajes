@@ -1,0 +1,36 @@
+.footer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: auto;
+    background-color: #141939;
+    .contact{
+        width: 33%;
+        color: white;
+    }
+    .information{
+        display: flex;
+        flex-direction: column;
+        width: 33%;
+        color: white;
+        .footer-link{
+            color: white;
+            text-decoration: none;
+        }
+    }
+    .newsletter{
+        width: 33%;
+        color: white;
+        .suscribe-button{
+            all: unset;
+            background-color: yellow; 
+        }
+    }
+    .copy{
+        width: 80%;
+        margin: auto;
+        text-align: center;
+        color: white;
+        margin-bottom: 10px;
+    }
+}

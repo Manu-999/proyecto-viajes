@@ -3,9 +3,11 @@ import React from 'react';
 function Form() {
 
     return (
-        <form className="form-component">
+        <div>
+            <form className="form-component">
 
-        </form>
+            </form>
+        </div>
     );
 }
 
