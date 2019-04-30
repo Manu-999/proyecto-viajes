@@ -2,17 +2,19 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    margin: auto;
     background-color: #141939;
+    text-align: center;
     .contact{
         width: 33%;
         color: white;
+        margin-top: 30px;
     }
     .information{
         display: flex;
         flex-direction: column;
         width: 33%;
         color: white;
+        margin-top: 30px;
         .footer-link{
             color: white;
             text-decoration: none;
@@ -21,6 +23,7 @@
     .newsletter{
         width: 33%;
         color: white;
+        margin-top: 30px;
         .suscribe-button{
             all: unset;
             background-color: yellow; 
@@ -31,6 +34,7 @@
         margin: auto;
         text-align: center;
         color: white;
+        margin-top: 20px;
         margin-bottom: 10px;
     }
 }
