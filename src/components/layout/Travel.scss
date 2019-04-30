@@ -1,0 +1,24 @@
+.travel-container{
+    margin: auto;
+    width: 20%;
+    .travel-info{
+        padding-bottom: 50%;
+        display: flex;
+        flex-direction: row;
+        margin: auto;
+        .offer{
+            background-color: #141939;
+            color: white;
+            width: 70%;
+            text-align: center;
+        }
+        .price{
+            background-color: yellow;
+            width: 30%;
+            text-align: center;
+        }
+    }
+    .travel-name{
+        text-align: center;
+    }
+}
