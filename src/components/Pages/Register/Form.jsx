@@ -1,13 +1,12 @@
 import React from 'react';
 
-function Form() {
-
+function Form(props) {
     return (
         <div>
-            <form className="form-component">
-
+            <form className="form-component" onSubmit={props.onSubmit}>
+                {props.children}
             </form>
-        </div>
+        </div >
     );
 }
 

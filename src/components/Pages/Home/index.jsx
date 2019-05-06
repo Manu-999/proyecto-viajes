@@ -23,37 +23,37 @@ function Home(props) {
           <Travel
             offer="Save $90, pay only"
             price="$359"
-            imageUrl="beijing.JPG"
-            name="Beijing"
+            imageUrl="buenos_aires.JPG"
+            name="Buenos Aires"
           />
 
           <Travel
             offer="Save $90, pay only"
             price="$359"
-            imageUrl="beijing.JPG"
-            name="Beijing"
+            imageUrl="ciudad_mexico.JPG"
+            name="Ciudad de México"
           />
         </div>
         <div className="row2">
           <Travel
             offer="Save $90, pay only"
             price="$359"
-            imageUrl="beijing.JPG"
-            name="Beijing"
+            imageUrl="madrid.JPG"
+            name="Madrid"
           />
 
           <Travel
             offer="Save $90, pay only"
             price="$359"
-            imageUrl="beijing.JPG"
-            name="Beijing"
+            imageUrl="tokyo.JPG"
+            name="Tokyo"
           />
 
           <Travel
             offer="Save $90, pay only"
             price="$359"
-            imageUrl="beijing.JPG"
-            name="Beijing"
+            imageUrl="new_york.JPG"
+            name="Nueva York"
           />
         </div>
       </section>
