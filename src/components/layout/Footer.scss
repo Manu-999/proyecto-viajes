@@ -24,9 +24,12 @@
         width: 33%;
         color: white;
         margin-top: 30px;
-        .suscribe-button{
+        .button-footer{
             all: unset;
-            background-color: yellow; 
+            background-color: yellow;
+            color: black;
+            padding: 10px;
+            margin: 2%; 
         }
     }
     .copy{

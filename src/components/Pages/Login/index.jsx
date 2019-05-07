@@ -5,9 +5,9 @@ import Footer from '../../layout/Footer';
 function Login(props) {
     return (
         <div>
-            {/* <Menu /> */}
+            <Menu />
             <LoginForm />
-            {/* <Footer /> */}
+            <Footer />
         </div>
     )
 }

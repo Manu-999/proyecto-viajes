@@ -26,8 +26,7 @@ function Footer(props) {
             <div className="newsletter">
                 <h3>SUSCRÍEBETE A LA NEWSLETTER</h3>
                 <Input type="email" placeholder="Correo electrónico" />
-                <Input className="suscribe-button" type="submit" value="Suscribirse" />
-                <button className="button">SUSCRÍBETE</button>
+                <button className="button-footer">SUSCRÍBETE</button>
                 <Icons />
             </div>
             <div className="copy">
