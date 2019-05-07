@@ -3,8 +3,6 @@ import { Link } from 'react-router-dom';
 import Input from './Input';
 import Form from './Form';
 import axios from 'axios';
-// import { useEmail } from '../../Hooks/useRegister';
-
 
 function RegisterForm(props) {
     const [username, setUserName] = useState('');

@@ -15,9 +15,9 @@ function Register(props) {
 
     return (
         <div>
-            {/* <Menu style={style} /> */}
+            <Menu style={style} />
             <Form />
-            {/* <Footer /> */}
+            <Footer />
         </div>
     );
 }

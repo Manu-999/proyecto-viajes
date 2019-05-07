@@ -46,7 +46,7 @@ function LoginForm(props) {
                     type="submit"
                     value="Enviar"
                 />
-                <Link to="/register"><h3>¿No recuerdas tu contraseña?</h3></Link>
+                <Link to="/register"><h3>¿Ya estás registrado?</h3></Link>
             </Form>
         </div>
     );

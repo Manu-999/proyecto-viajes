@@ -15,13 +15,13 @@ function Footer(props) {
             </div>
             <div className="information">
                 <h3>INFORMACIÓN</h3>
-                <Link className="footer-link">Quienes somos</Link>
-                <Link className="footer-link">Preguntas frecuentes</Link>
-                <Link className="footer-link">Política de privacidad</Link>
-                <Link className="footer-link">Condiciones generales</Link>
-                <Link className="footer-link">Aviso legal</Link>
-                <Link className="footer-link">Contacto</Link>
-                <Link className="footer-link">Programa de puntos</Link>
+                <Link to="#quienes-somos" className="footer-link">Quienes somos</Link>
+                <Link to="#preguntas" className="footer-link">Preguntas frecuentes</Link>
+                <Link to="#politica" className="footer-link">Política de privacidad</Link>
+                <Link to="#condiciones" className="footer-link">Condiciones generales</Link>
+                <Link to="#aviso-legal" className="footer-link">Aviso legal</Link>
+                <Link to="#contacto" className="footer-link">Contacto</Link>
+                <Link to="#puntos" className="footer-link">Programa de puntos</Link>
             </div>
             <div className="newsletter">
                 <h3>SUSCRÍEBETE A LA NEWSLETTER</h3>
